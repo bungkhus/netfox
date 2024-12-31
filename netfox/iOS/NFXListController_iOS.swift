@@ -59,6 +59,7 @@ class NFXListController_iOS: NFXListController, UITableViewDelegate, UITableView
         searchController.searchBar.tintColor = UIColor.NFXOrangeColor()
         searchController.searchBar.searchBarStyle = .minimal
         searchController.view.backgroundColor = UIColor.clear
+        searchController.searchBar.text = "api.langaroo"
         
         if #available(iOS 11.0, *) {
             navigationItem.searchController = searchController
